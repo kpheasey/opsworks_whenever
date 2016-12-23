@@ -1,0 +1,7 @@
+name 'opsworks_whenever'
+maintainer 'Kevin Pheasey'
+maintainer_email 'kevin@kpheasey.com'
+license 'all_rights'
+description 'Configures crontab using whenever'
+long_description 'Configure crontab using whenever on AWS OpsWorks'
+version '0.1.0'
