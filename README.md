@@ -18,7 +18,6 @@ Include the default whenenver role in your application's custom JSON.
 {
   "applications": ["my_app"],
   "my_app": {
-    ...
     "whenever": {
         "roles": ["default"]
     }
