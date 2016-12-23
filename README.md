@@ -16,10 +16,11 @@ Include the default whenenver role in your application's custom JSON.
 
 ```json
 {
-  "applications": ["my_app"],
-  "my_app": {
-    "whenever": {
-        "roles": ["default"]
+  "deploy": {
+    "my_app": {
+      "whenever": {
+          "roles": ["default"]
+      }
     }
   }
 }
